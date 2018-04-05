@@ -146,8 +146,10 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.6s">
                         <i class="ti-layout-grid2-alt"></i>
-                        <?php echo '<h5>Por Ubicación: '.$location.'</h5>'; ?>
-                        <p>Ropa de verano para hombre con 15% de descuento.</p>
+                        <?php 
+                            echo '<h5>Por Ubicación: '.$location.'</h5>'; 
+                            echo '<p>Visita nuestra sucursal en '.$location.' y obtén un 10% de descuento en tu próxima compra</p>';
+                        ?>
                     </div>
                 </div>
                 <!-- Single Service Start -->
