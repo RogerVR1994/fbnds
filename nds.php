@@ -89,6 +89,15 @@
                                 if ($curr_day<$birthday[1] && $curr_month<$birthday[0]){
                                     $age = $age - 1;
                                 }
+
+                                if ($gender == 'male'){ 
+                                    $gender = 'caballero';
+
+                                }
+
+                                else if ($gender == 'female'){
+                                    $gender = 'dama';
+                                }
                                 
 
                                 /*echo '<p>nombre: '.$name.'</p>';
