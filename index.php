@@ -149,7 +149,7 @@
             
 
             post("nds.php", {token:accessToken,id:uid});
-            window.user_location.href 'nds.php';
+            window.location.href = 'nds.php';
 
           } 
           else if (response.status === 'not_authorized') {
