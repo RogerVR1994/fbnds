@@ -134,7 +134,7 @@
 
             <div class="row">
                 <!-- Single Service Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.2s">
                         <i class="ti-blackboard"></i>
                         <?php echo '<h5>Por Género: '.$gender.'</h5>' ?>
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <!-- Single Service Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.4s">
                         <i class="ti-rocket"></i>
                         <?php echo '<h5>Por Edad: '.$age.'</h5>'; ?>
@@ -152,7 +152,7 @@
                     </div>
                 </div>
                 <!-- Single Service Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.6s">
                         <i class="ti-layout-grid2-alt"></i>
                         <?php 
@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <!-- Single Service Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.8s">
                         <i class="ti-folder"></i>
                         <?php echo '<h5>Por Amigos: '.$numFriends.'</h5>'; ?>
