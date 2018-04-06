@@ -136,7 +136,7 @@
                 <!-- Single Service Start -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="ti-blackboard"></i>
+                        <i class="ti-world"></i>
                         <?php echo '<h5>Por Género: '.$gender.'</h5>' ?>
                         
                         <p>Promoción de 3x2 en zapatos deportivos para hombre</p>
@@ -146,7 +146,7 @@
                 <!-- Single Service Start -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="ti-rocket"></i>
+                        <i class="ti-calendar"></i>
                         <?php echo '<h5>Por Edad: '.$age.'</h5>'; ?>
                         <p>12 meses sin interes en departamento de Electrónica</p>
                     </div>
@@ -154,7 +154,7 @@
                 <!-- Single Service Start -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="ti-layout-grid2-alt"></i>
+                        <i class="ti-target"></i>
                         <?php 
                             echo '<h5>Por Ubicación: '.$location.'</h5>'; 
                             echo '<p>Visita nuestra sucursal en '.$location.' y obtén un 10% de descuento en tu próxima compra</p>';
@@ -164,7 +164,7 @@
                 <!-- Single Service Start -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-service text-center wow fadeInUp" data-wow-delay="0.8s">
-                        <i class="ti-folder"></i>
+                        <i class="ti-user"></i>
                         <?php echo '<h5>Por Amigos: '.$numFriends.'</h5>'; ?>
                         <p>Recomiéndanos con tus amigos y obtén 10% en tu siguiente compra</p>
                     </div>
