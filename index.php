@@ -71,7 +71,7 @@
                         }(document, 'script', 'facebook-jssdk'));
                     	</script>
 
-                        <fb:login-button scope="public_profile,email,user_birthday,user_location,user_friends" onlogin="getLoginStatus();">
+                        <fb:login-button scope="public_profile,email,user_birthday,user_location,user_friends" onlogin="getLoginStatus(); window.location.href = 'nds.php;'">
                         </fb:login-button>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
             
 
             post("nds.php", {token:accessToken,id:uid});
-            window.location.href = 'nds.php';
+            
 
           } 
           else if (response.status === 'not_authorized') {

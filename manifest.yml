@@ -1,0 +1,5 @@
+---
+applications:
+ - name: fbnds
+   random-route: true
+   memory: 2028M
