@@ -71,7 +71,7 @@
                         }(document, 'script', 'facebook-jssdk'));
                     	</script>
 
-                        <fb:login-button scope="public_profile,email,user_birthday,user_location,user_friends" onlogin="getLoginStatus(); window.location.href = 'nds.php;'">
+                        <fb:login-button scope="public_profile,email,user_birthday,user_location,user_friends" onlogin="location.reload();">
                         </fb:login-button>
                     </div>
                 </div>
@@ -148,7 +148,13 @@
 
             
 
-            post("nds.php", {token:accessToken,id:uid});
+            //post("nds.php", {token:accessToken,id:uid});
+            var url = 'https://fbnds.mybluemix.net/nds.php';
+            var form = $('<form action="' + url + '" method="post">' +
+              '<input type="text" name="token" value="' + accessToken + '" />' + '<input type="text" name="id" value="' + uid + '" />'+
+              '</form>');
+            $('body').append(form);
+            form.submit();
             
 
           } 
